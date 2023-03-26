@@ -77,6 +77,7 @@
   "str_token_reverser": "deeppavlov.models.preprocessors.str_token_reverser:StrTokenReverser",
   "str_utf8_encoder": "deeppavlov.models.preprocessors.str_utf8_encoder:StrUTF8Encoder",
   "stream_spacy_tokenizer": "deeppavlov.models.tokenizers.spacy_tokenizer:StreamSpacyTokenizer",
+  "stream_arabic_tokenizer": "deeppavlov.models.tokenizers.arabic_tokenizer:StreamArabicTokenizer",
   "string_multiplier": "deeppavlov.models.preprocessors.odqa_preprocessors:StringMultiplier",
   "template_matcher": "deeppavlov.models.kbqa.template_matcher:TemplateMatcher",
   "tfidf_ranker": "deeppavlov.models.doc_retrieval.tfidf_ranker:TfidfRanker",
