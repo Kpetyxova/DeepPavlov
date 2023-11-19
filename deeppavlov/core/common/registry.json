@@ -22,6 +22,8 @@
   "huggingface_dataset_reader": "deeppavlov.dataset_readers.huggingface_dataset_reader:HuggingFaceDatasetReader",
   "emo_binary_iterator": "deeppavlov.dataset_iterators.emo_binary_iterator:EmoBinaryDatasetIterator",
   "emo_binary_reader": "deeppavlov.dataset_readers.emo_binary_reader:EmoBinaryReader",
+  "emo_multi_iterator": "deeppavlov.dataset_iterators.emo_multi_iterator:EmoMultiDatasetIterator",
+  "emo_multi_reader": "deeppavlov.dataset_readers.emo_multi_reader:EmoMultiReader",
   "imdb_reader": "deeppavlov.dataset_readers.imdb_reader:ImdbReader",
   "kenlm_elector": "deeppavlov.models.spelling_correction.electors.kenlm_elector:KenlmElector",
   "line_reader": "deeppavlov.dataset_readers.line_reader:LineReader",
