@@ -46,7 +46,7 @@ class EmoMultiReader(DatasetReader):
 
         dataset = {}
 
-        for filename in ['valid.tsv', 'train.tsv', 'test.tsv']:
+        for filename in ['valid.tsv', 'train.tsv']:
             dataset[filename.split('.')[0]] = self._build_data(data_path / filename)
 
         return dataset
