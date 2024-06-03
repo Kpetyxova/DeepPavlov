@@ -20,6 +20,8 @@
   "hashing_tfidf_vectorizer": "deeppavlov.models.vectorizers.hashing_tfidf_vectorizer:HashingTfIdfVectorizer",
   "huggingface_dataset_iterator": "deeppavlov.dataset_iterators.huggingface_dataset_iterator:HuggingFaceDatasetIterator",
   "huggingface_dataset_reader": "deeppavlov.dataset_readers.huggingface_dataset_reader:HuggingFaceDatasetReader",
+  "topic_shift_iterator": "deeppavlov.dataset_iterators.topic_shift_iterator:TopicShiftDatasetIterator",
+  "topic_shift_reader": "deeppavlov.dataset_readers.topic_shift_reader:TopicShiftReader",
   "imdb_reader": "deeppavlov.dataset_readers.imdb_reader:ImdbReader",
   "kenlm_elector": "deeppavlov.models.spelling_correction.electors.kenlm_elector:KenlmElector",
   "line_reader": "deeppavlov.dataset_readers.line_reader:LineReader",
